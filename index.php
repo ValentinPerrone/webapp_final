@@ -1,5 +1,7 @@
 <?php
+require_once "auth_session.php";
 require_once "config.php";
+
 
 session_start(); // Helper loaded by header usually, but good to have explicit if logic needs it before
 
