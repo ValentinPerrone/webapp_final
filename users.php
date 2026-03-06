@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$db   = "your_database";
-$user = "your_db_user";
-$pass = "your_db_password";
+$db   = "recipe_platform";
+$user = "root";
+$pass = "";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
