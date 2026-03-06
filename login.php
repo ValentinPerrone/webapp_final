@@ -15,9 +15,9 @@ require_once "config.php";
 
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
-$method = 
+$method = "POST";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == $method) {
 
     if (empty(trim($_POST["username"]))) {
         $username_err = "Please enter username.";
