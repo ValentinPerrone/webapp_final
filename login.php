@@ -15,7 +15,7 @@ require_once "config.php";
 
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
-
+$method = 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 

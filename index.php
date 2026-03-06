@@ -2,9 +2,6 @@
 require_once "auth_session.php";
 require_once "config.php";
 
-
-session_start(); // Helper loaded by header usually, but good to have explicit if logic needs it before
-
 // 1. Handling Search & Sort inputs
 $search_query = isset($_GET['q']) ? trim($_GET['q']) : '';
 $sort_order = isset($_GET['sort']) ? $_GET['sort'] : 'rating_desc';
